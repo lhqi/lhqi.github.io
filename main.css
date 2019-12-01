@@ -6,7 +6,6 @@
     outline: 0;
     font-size: 100%;
     vertical-align: baseline;
-    background: transparent;
 }
 
 .clearfix::after {
@@ -24,9 +23,6 @@ body {
     width: 60%;
     max-width: 960px;
     margin: auto;
-    background-position: center;
-    background-size: contain;
-    background-repeat: repeat-y;
     font-family: 'Source Sans Pro', sans-serif !important; 
 }
 
