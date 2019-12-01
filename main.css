@@ -27,15 +27,18 @@ body {
     background-position: center;
     background-size: contain;
     background-repeat: repeat-y;
+    font-family: 'Source Sans Pro', sans-serif !important; 
 }
 
 h1 {
+    font-family: 'Source Sans Pro', sans-serif !important; 
     font-size: 50px;
     font-weight: 700;
     color: #424242;
 }
 
 h2 {
+    font-family: 'Source Sans Pro', sans-serif !important; 
     font-size: 30px;
     font-weight: 700;
     color: #424242;
@@ -49,6 +52,7 @@ h5 {
 }
 
 p {
+    font-family: 'Source Sans Pro', sans-serif !important; 
     color: #757575;
     font-weight: 100;
     margin-top: 10px;
