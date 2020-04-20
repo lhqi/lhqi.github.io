@@ -44,7 +44,7 @@ h5 {
     font-family: 'Source Sans Pro', sans-serif !important;
     font-size: 20px;
     margin-top: 10px;
-    color: #424242;
+    color: #757575;
 }
 
 p {
@@ -53,14 +53,73 @@ p {
     font-weight: 100;
     margin-top: 10px;
     font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+
 }
 
 
-.blue {
-    color: #039BE5;
+/*----coloring-----*/
+.green {
+    color: #77A391;
+}
+.greenBorder {
+    border-color: #77A391;
+}
+.btn:hover {
+    border-color: #506D61;
+    color: #506D61;
+}
+.highlight{
+    color: #ffffff;
+    background-color: #77A391;
 }
 
-/*----Nav-----*/
+/*----animation-----*/
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+   @-webkit-keyframes fadeInUp {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+   }
+           
+  @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%,0);}
+      100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0,0,0);}
+  }
+  
+  .fadeInUp{
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+  }
+  
+   @-webkit-keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+   }
+           
+  @keyframes fadeIn{
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+  }
+  
+  .fadeIn{
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
+
+/*----nav-----*/
 .nav {
     display: flex;
     align-items: center;
@@ -91,7 +150,7 @@ p {
     text-decoration: none;
 }
 
-/*-----Landing-----*/
+/*-----landing-----*/
 .landingWrapper {
     display: flex;
     justify-content: space-between;
@@ -100,6 +159,21 @@ p {
 .landing {
     margin-top: 4em;
 }
+
+
+/*-----projects-----*/
+ 
+  .card-style {
+    width: 100%;
+    margin-bottom: 2em;
+    border-radius: 16px;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+  
+  .card-style:hover {top: -12px;}
 
 
 /*-----footer---*/
@@ -111,3 +185,4 @@ p {
 .footerIcons a{
     margin: 10px;
 }
+
