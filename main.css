@@ -161,7 +161,7 @@ p {
 }
 
 
-/*-----projects-----*/
+/*-----projects section-----*/
  
   .card-style {
     width: 100%;
@@ -175,6 +175,12 @@ p {
   
   .card-style:hover {top: -12px;}
 
+/*-----individual projects ---*/
+  .imageCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 /*-----footer---*/
 .footer {
